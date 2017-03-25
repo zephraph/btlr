@@ -1,0 +1,14 @@
+{
+  "name": "btlr",
+  "version": "1.0.0",
+  "dependencies": {
+    "caporal": "^0.3.0",
+    "jira-client": "^6.0.1",
+    "keytar": "^3.0.2",
+    "typescript": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.11",
+    "tslint": "^4.5.1"
+  }
+}
