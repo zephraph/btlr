@@ -4,11 +4,24 @@
   "dependencies": {
     "caporal": "^0.3.0",
     "jira-client": "^6.0.1",
-    "keytar": "^3.0.2",
-    "typescript": "^2.2.1"
+    "keytar": "^3.0.2"
   },
   "devDependencies": {
     "@types/node": "^7.0.11",
-    "tslint": "^4.5.1"
+    "tslint": "^4.5.1",
+    "jest": "^19.0.2",
+    "typescript": "^2.2.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "lib/**/*.spec.ts",
+    "moduleFileExtensions": [
+      "ts"
+    ]
   }
 }
